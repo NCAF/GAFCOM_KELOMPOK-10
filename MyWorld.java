@@ -51,6 +51,7 @@ public class MyWorld extends World
         PLAY pLAY2 = new PLAY();
         addObject(pLAY2,400,407);
 
-       
+        HOWTOPLAY hOWTOPLAY = new HOWTOPLAY();
+        addObject(hOWTOPLAY,690,35);
     }
 }

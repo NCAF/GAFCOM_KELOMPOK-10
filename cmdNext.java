@@ -14,6 +14,11 @@ public class cmdNext extends Actor
      */
     public void act()
     {
-         
+         // Add your action code here.
+        if(Greenfoot.mousePressed(this)){
+        }
+        if(Greenfoot.mouseClicked(this)){
+            Greenfoot.setWorld(new LARANGAN());
+        }
     }
 }

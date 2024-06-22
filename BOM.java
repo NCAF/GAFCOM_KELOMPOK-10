@@ -14,6 +14,19 @@ public class BOM extends Actor
      */
     public void act()
     {
-        // Add your action code here.
+        setLocation(getX(), getY()+8);
+        jatuh();
+    }
+    
+    public void jatuh()
+    {
+        Actor KARAKTER = getOneIntersectingObject(KARAKTER.class);
+        if(KARAKTER != null){
+            getWorld().removeObject(this);
+            NYAWA.nyawa_berkurang();
+            
+        }else if(isAtEdge()){
+            getWorld().removeObject(this);
+        }
     }
 }

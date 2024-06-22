@@ -13,28 +13,19 @@ public class PETUNJUK extends World
      * Constructor for objects of class PETUNJUK.
      * 
      */
-    public GreenfootSound music = new GreenfootSound
-    ("PAMAN DATANG (music by NurCahyani).mp3");
-    public void started()
-    {
-        music.setVolume(75);
-        music.play();
-    }
-    
-    public void stopped()
-    {
-      music.stop();
-      music.pause();
-    }
+    public GreenfootSound petunjuk = new GreenfootSound
+        ("PAMAN DATANG (music by NurCahyani).mp3");
+
     public PETUNJUK()
     {    
 
         super(780, 480, 1); 
         addObject(new cmdBack(),100,360);
         addObject(new cmdNext(),680,360);
+        
 
         
     }
-    
+
     
 }

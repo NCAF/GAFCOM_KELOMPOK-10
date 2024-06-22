@@ -15,7 +15,7 @@ public class PLAY extends Actor
     public void act()
     {
         if(Greenfoot.mousePressed(this))
-            Greenfoot.setWorld(new PETUNJUK());
+            Greenfoot.setWorld(new RUANGTUNGGU());
     
     }
 }

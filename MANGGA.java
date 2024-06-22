@@ -14,6 +14,27 @@ public class MANGGA extends Actor
      */
     public void act()
     {
-        // Add your action code here.
+       move(2);
+       turn(Greenfoot.getRandomNumber(5));
+       turnAtEdge();
+       buah();
+    }
+    
+    public void turnAtEdge(){
+        if(getX() <= 15 || getX() >= getWorld().getWidth()-15){
+            turn(60);
+        }
+        if(getX() <= 15 || getX() >= getWorld().getWidth()-15){
+            turn(60);
+        }
+    }
+    
+    public void buah(){
+        Actor KARAKTER = getOneIntersectingObject(KARAKTER.class);
+        if(KARAKTER != null){
+            getWorld().removeObject(this);
+            SKOR.jumlah_skor+=5;
+            
+        }
     }
 }

@@ -14,9 +14,7 @@ public class KEBUN extends World
      * 
      */
     public void act(){
-        if(Greenfoot.getRandomNumber(600)<2){
-            addObject(new APEL(),Greenfoot.getRandomNumber(600)+0,5);
-        }
+       
         if(Greenfoot.getRandomNumber(500)<1){
             addObject(new ANGGUR(),Greenfoot.getRandomNumber(500)+0,6);
         }
@@ -25,6 +23,9 @@ public class KEBUN extends World
         }
         if(Greenfoot.getRandomNumber(600)<2){
             addObject(new JERUK(),Greenfoot.getRandomNumber(600)+0,8);
+        }
+        if(Greenfoot.getRandomNumber(400)<1){
+            addObject(new BOM(),Greenfoot.getRandomNumber(400)+0,200);
         }
     }
     public KEBUN()

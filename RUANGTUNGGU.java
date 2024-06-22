@@ -15,6 +15,7 @@ public class RUANGTUNGGU extends World
      */
     public GreenfootSound music = new GreenfootSound
     ("PAMAN DATANG (music by NurCahyani).mp3");
+   
     public void started()
     {
         music.setVolume(80);
@@ -26,11 +27,13 @@ public class RUANGTUNGGU extends World
       music.stop();
       music.pause();
     }
+   
     public RUANGTUNGGU()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(780, 480, 1); 
         prepare();
+        
     }
     
     /**

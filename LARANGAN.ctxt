@@ -2,9 +2,5 @@
 comment0.target=LARANGAN
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ LARANGAN\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
-comment1.target=void\ started()
-comment2.params=
-comment2.target=void\ stopped()
-comment3.params=
-comment3.target=LARANGAN()
-numComments=4
+comment1.target=LARANGAN()
+numComments=2

@@ -14,6 +14,12 @@ public class cmdBack extends Actor
      */
     public void act()
     {
+        // Add your action code here.
+        GreenfootImage image = new GreenfootImage("BACK.png");
+        setImage(image);
         
+        if(Greenfoot.mousePressed(this)){
+            Greenfoot.setWorld(new MyWorld());
+        }
     }
 }
