@@ -14,19 +14,18 @@ public class MyWorld extends World
      * 
      */
     public GreenfootSound music = new GreenfootSound
-    ("PAMAN DATANG (music by NurCahyani).mp3");
+    ("PAMAN DATANG (music by NurCahyani).wav");
     public void started()
     {
         music.setVolume(80);
         music.play();
     }
-    
     public void stopped()
     {
-      music.stop();
-      music.pause();
+        music.stop();
+        music.pause();
     }
-   
+    
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.

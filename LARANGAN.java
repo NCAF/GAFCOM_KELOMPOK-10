@@ -13,8 +13,6 @@ public class LARANGAN extends World
      * Constructor for objects of class LARANGAN.
      * 
      */
-   public GreenfootSound larangan = new GreenfootSound
-    ("PAMAN DATANG (music by NurCahyani).mp3");
    
     public LARANGAN()
     {    

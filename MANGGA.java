@@ -34,7 +34,7 @@ public class MANGGA extends Actor
         if(KARAKTER != null){
             getWorld().removeObject(this);
             SKOR.jumlah_skor+=5;
-            
+            Greenfoot.playSound("petikbuah.wav");
         }
     }
 }

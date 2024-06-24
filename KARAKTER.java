@@ -36,18 +36,18 @@ public class KARAKTER extends Actor
     public void tombol()
     {
         if(Greenfoot.isKeyDown("up")){
-            setLocation(getX(),getY()-2);
+            setLocation(getX(),getY()-5);
         }
         if(Greenfoot.isKeyDown("down")){
-            setLocation(getX(),getY()+2);
+            setLocation(getX(),getY()+5);
         }
         if(Greenfoot.isKeyDown("left")){
             setImage("K_kanan.png");
-            setLocation(getX()-2,getY());
+            setLocation(getX()-5,getY());
         }
         if(Greenfoot.isKeyDown("right")){
             setImage("K_kiri.png");
-            setLocation(getX()+2,getY());
+            setLocation(getX()+5,getY());
         }
     }
 }

@@ -19,5 +19,6 @@ public class GAMEOVER extends World
         super(780, 480, 1); 
         addObject(new TRYAGAIN(),200,420);
         addObject(new HOME(),560,430);
+        Greenfoot.playSound("GAME OVER.wav");
     }
 }

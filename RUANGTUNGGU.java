@@ -13,20 +13,7 @@ public class RUANGTUNGGU extends World
      * Constructor for objects of class RUANGTUNGGU.
      * 
      */
-    public GreenfootSound music = new GreenfootSound
-    ("PAMAN DATANG (music by NurCahyani).mp3");
-   
-    public void started()
-    {
-        music.setVolume(80);
-        music.play();
-    }
     
-    public void stopped()
-    {
-      music.stop();
-      music.pause();
-    }
    
     public RUANGTUNGGU()
     {    
